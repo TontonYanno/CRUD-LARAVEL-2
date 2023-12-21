@@ -29,8 +29,6 @@ Route::get("/update/{id}",[FonctionnaireController::class , "voir"]);
 
 Route::post("/updatefunc/{id}",[FonctionnaireController::class , "modifier"]);
 
-// Cette route est destiner aux esapace fonctionnaire  pour adminitratur 
-Route::get("/fonctionnaire",[FonctionnaireController::class , "espacefonc"]);
 
-Route::get ("/",[AuthController::class , "login"],)->name("auth.login");
-Route::post ("/log",[AuthController::class , "dologin"],);
+
+
